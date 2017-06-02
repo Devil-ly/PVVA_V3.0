@@ -488,8 +488,8 @@ void RaySource::updateData()
 
 void RaySource::clearActor()
 {
-	for (auto x : actors)
-		x->Delete();
+	//for (auto x : actors) // 不知道什么问题
+	//	x->Delete();
 	actors.clear();
 }
 
